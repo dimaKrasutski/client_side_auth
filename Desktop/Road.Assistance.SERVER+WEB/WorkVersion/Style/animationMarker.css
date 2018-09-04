@@ -1,0 +1,106 @@
+#markerLayer img {
+    animation: pulse .5s infinite alternate;
+    -webkit-animation: pulse .5s infinite alternate;
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+@keyframes pulse{
+    to {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+    }
+}
+@-webkit-keyframes pulse{
+    to {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+    }
+}
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+ .label{
+     width: 85px;
+     height: 25px;
+     border-radius: 5px;
+     text-align: center;
+     line-height: 25px;
+     font-weight: bold;
+     font-size: 14px;
+     overflow: visible;
+ }
+.my-custom-class-for-label-garage {
+    border: 1px solid #eb6772;
+    background: #f9fef7;
+    color: #eb6163;
+}
+.my-custom-class-for-label-user {
+    border: 1px solid #7a89eb;
+    background: #f8fef8;
+    color: #6572eb;
+}

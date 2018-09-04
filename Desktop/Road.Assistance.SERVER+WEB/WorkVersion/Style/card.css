@@ -1,0 +1,113 @@
+
+.infobox {
+    background: none repeat scroll 0 0 ;
+    background-image: linear-gradient(#4A5A8A, #6a7b8a 35%);
+    color: #F1F1F1;
+    font-family: arial;
+    line-height: 20px;
+    position: absolute;
+    border-radius: 6px;
+    opacity: 0.95;
+}
+.infobox:before, .infobox:after {
+    border-color: transparent transparent transparent #44548a;
+    border-style: solid;
+    border-width: 20px 20px 0;
+    bottom: -1px;
+    content: "";
+    display: block;
+    height: 0;
+    left: -1px;
+    position: absolute;
+    width: 0;
+    z-index:2
+}
+.infobox:after {
+    border-color: transparent transparent transparent #FFFFFF;
+    border-width:24px 24px 0;
+    z-index:1
+}
+#contentInfo p{
+
+    font-family: "Times New Roman";
+    color: white;
+    margin: 0 auto;
+  text-shadow: 0.3px 0.3px 0 #9999FF;
+    text-align: left;
+    font-size: large;
+
+}
+
+#contentInfo p em{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    font-family: "Times New Roman";
+    text-shadow: 0.5px 0.5px 0 #c8c8ff;
+    color: #d4ecff;
+}
+#contentInfo h6{
+    margin: 8px auto 0 1px;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-shadow: 0.2px 0.2px 0 #c8c8ff;
+    color: #d4ecff;
+}
+
+#contentInfo button{
+    border-radius: 8px ;
+    color: white;
+    text-shadow: 0.5px 0.5px 0 #c8c8ff;
+    opacity: 1;
+    margin: 5px 0 0 6px ;
+    width: 86px;
+    height: 43px;
+    background-image: linear-gradient(90deg,#F565B0, #8399FE 50%);
+    border: none;
+}
+
+.infobox .content {
+    margin:10px 10px 10px 10px;
+}
+
+.employeesDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+margin: 0 auto;
+}
+.employee {
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-top: 5.4%;
+    margin-left: 5%;
+}
+
+/* On mouse-over, add a grey background color */
+.employeesDiv:hover input ~ .employee {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.employeesDiv input:checked ~ .employee {
+    background-color: white ;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.employee:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.employeesDiv input:checked ~ .employee:after {
+    display: block;
+}
+
+.employeesButton{
+ margin: 0 auto;
+}
