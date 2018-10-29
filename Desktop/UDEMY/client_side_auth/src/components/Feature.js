@@ -1,0 +1,11 @@
+import React,{Component} from 'react'
+import requiredAuth from './requireAuth(HOC)'
+
+
+class Feature extends Component{
+    render(){
+        return <div>This is the feature! </div>
+    }
+}
+
+export default requiredAuth(Feature)
