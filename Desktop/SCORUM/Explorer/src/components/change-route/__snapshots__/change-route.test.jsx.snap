@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteLink /> should use state + locale 1`] = `
+<Redirect
+  push={false}
+  to={
+    Object {
+      "pathname": "/en-us/test",
+      "search": "",
+    }
+  }
+/>
+`;
+
+exports[`<RouteLink /> when static to is called should create component and render 1`] = `
+<Connect(ChangeRoute)
+  to="/another/"
+/>
+`;

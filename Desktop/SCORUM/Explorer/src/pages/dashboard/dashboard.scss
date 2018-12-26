@@ -1,0 +1,19 @@
+.dashboard-container {
+  .dashboard-transactions-table,
+  .dashboard-blocks-table {
+    td {
+      max-width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  .text-align {
+    vertical-align: text-bottom;
+  }
+
+  .btn {
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionsUI /> should 1`] = `
+<Table
+  className="mt-3 transactions-table"
+  responsiveTag="div"
+  tag="table"
+>
+  <thead
+    className="thead-light"
+  >
+    <tr>
+      <th
+        className="fixed-column"
+      >
+        <FormattedMessage
+          id="explorer.account-info.transactions.hash"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.account-info.transactions.who"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.account-info.transactions.date"
+          values={Object {}}
+        />
+      </th>
+      <th
+        className="text-right"
+      >
+        <FormattedMessage
+          id="explorer.account-info.transactions.amount"
+          values={Object {}}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <Connect(TransactionUI)
+      key="0"
+      locale="en-us"
+      transaction={
+        Object {
+          "index": 0,
+          "op": Object {
+            "amount": "100000.000 SCR",
+          },
+          "timestamp": "2018-03-07T15:42:39",
+        }
+      }
+      userName="Dabooos"
+    />
+    <Connect(TransactionUI)
+      key="1"
+      locale="en-us"
+      transaction={
+        Object {
+          "index": 1,
+          "op": Object {
+            "amount": "100000.000 SCR",
+          },
+          "timestamp": "2018-03-07T15:42:41",
+        }
+      }
+      userName="Dabooos"
+    />
+    <Connect(TransactionUI)
+      key="2"
+      locale="en-us"
+      transaction={
+        Object {
+          "index": 2,
+          "op": Object {
+            "amount": "100000.000 SCR",
+          },
+          "timestamp": "2018-03-07T15:42:49",
+        }
+      }
+      userName="Dabooos"
+    />
+  </tbody>
+</Table>
+`;
+
+exports[`<TransactionsUI /> should match with inProgress 1`] = `
+<Table
+  className="mt-3 transactions-table"
+  responsiveTag="div"
+  tag="table"
+>
+  <thead
+    className="thead-light"
+  >
+    <tr>
+      <th
+        className="fixed-column"
+      >
+        <FormattedMessage
+          id="explorer.account-info.transactions.hash"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.account-info.transactions.who"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.account-info.transactions.date"
+          values={Object {}}
+        />
+      </th>
+      <th
+        className="text-right"
+      >
+        <FormattedMessage
+          id="explorer.account-info.transactions.amount"
+          values={Object {}}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <Connect(TransactionUI)
+      key="0"
+      locale="en-us"
+      transaction={
+        Object {
+          "index": 0,
+          "op": Object {
+            "amount": "100000.000 SCR",
+          },
+          "timestamp": "2018-03-07T15:42:39",
+        }
+      }
+      userName="Dabooos"
+    />
+    <Connect(TransactionUI)
+      key="1"
+      locale="en-us"
+      transaction={
+        Object {
+          "index": 1,
+          "op": Object {
+            "amount": "100000.000 SCR",
+          },
+          "timestamp": "2018-03-07T15:42:41",
+        }
+      }
+      userName="Dabooos"
+    />
+    <Connect(TransactionUI)
+      key="2"
+      locale="en-us"
+      transaction={
+        Object {
+          "index": 2,
+          "op": Object {
+            "amount": "100000.000 SCR",
+          },
+          "timestamp": "2018-03-07T15:42:49",
+        }
+      }
+      userName="Dabooos"
+    />
+    <PreloaderTransactions />
+  </tbody>
+</Table>
+`;

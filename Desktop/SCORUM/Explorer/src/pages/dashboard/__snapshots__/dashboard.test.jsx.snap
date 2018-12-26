@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardUI /> should match snapshot 1`] = `
+<Connect(MainUI)>
+  <Container
+    className="pt-6 dashboard-container"
+    tag="div"
+  >
+    <Row
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="4"
+      >
+        <BalanceCard
+          classNames="card-left"
+          innerClassName="pl-3"
+        >
+          <BalanceCardBody
+            balance={0}
+            currency="USD"
+            icon={<IconScr />}
+            locale="en-us"
+            title="explorer.dashboard.balance-card.total-scr"
+            trades={1}
+          />
+        </BalanceCard>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="4"
+      >
+        <BalanceCard
+          classNames="card-left"
+          innerClassName="pl-3"
+        >
+          <BalanceCardBody
+            balance={0}
+            currency="USD"
+            icon={<IconSp />}
+            locale="en-us"
+            title="explorer.dashboard.balance-card.total-sp"
+            trades={1}
+          />
+        </BalanceCard>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="4"
+      >
+        <BalanceCard
+          classNames="card-left h-100"
+          innerClassName="h-100 pl-3"
+        >
+          <span>
+            <FormattedMessage
+              id="explorer.dashboard.balance-card.total-users"
+              values={Object {}}
+            />
+          </span>
+          <h2
+            className="mt-1_5 mb-2"
+          />
+        </BalanceCard>
+      </Col>
+    </Row>
+    <Row
+      className="mt-6"
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="6"
+      >
+        <Input
+          className="mb-0"
+          plaintext={true}
+          type="text"
+        >
+          <span
+            className="h3 mr-1"
+          >
+            0
+          </span>
+          <span
+            className="font-weight-normal text-align"
+          >
+            <FormattedMessage
+              id="explorer.dashboard.total-transactions"
+              values={Object {}}
+            />
+          </span>
+        </Input>
+        <Table
+          className="dashboard-transactions-table"
+          responsiveTag="div"
+          tag="table"
+        >
+          <thead
+            className="thead-light"
+          >
+            <tr>
+              <th>
+                <FormattedMessage
+                  id="explorer.dashboard.transactions.hash"
+                  values={Object {}}
+                />
+              </th>
+              <th>
+                <FormattedMessage
+                  id="explorer.dashboard.transactions.date"
+                  values={Object {}}
+                />
+              </th>
+              <th>
+                <FormattedMessage
+                  id="explorer.dashboard.transactions.type"
+                  values={Object {}}
+                />
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </Table>
+        <DashboardButton
+          onClick={[Function]}
+          text="explorer.dashboard.all-transactions"
+        />
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="6"
+      >
+        <Input
+          className="mb-0"
+          plaintext={true}
+          type="text"
+        >
+          <span
+            className="h3 mr-1"
+          >
+            1
+          </span>
+          <span
+            className="font-weight-normal text-align"
+          >
+            <FormattedMessage
+              id="explorer.dashboard.total-blocks"
+              values={Object {}}
+            />
+          </span>
+        </Input>
+        <Table
+          className="dashboard-blocks-table"
+          responsiveTag="div"
+          tag="table"
+        >
+          <thead
+            className="thead-light"
+          >
+            <tr>
+              <th>
+                <FormattedMessage
+                  id="explorer.dashboard.blocks.height"
+                  values={Object {}}
+                />
+              </th>
+              <th>
+                <FormattedMessage
+                  id="explorer.dashboard.blocks.date"
+                  values={Object {}}
+                />
+              </th>
+              <th>
+                <FormattedMessage
+                  id="explorer.dashboard.blocks.hash"
+                  values={Object {}}
+                />
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </Table>
+        <DashboardButton
+          onClick={[Function]}
+          text="explorer.dashboard.all-blocks"
+        />
+      </Col>
+    </Row>
+  </Container>
+</Connect(MainUI)>
+`;

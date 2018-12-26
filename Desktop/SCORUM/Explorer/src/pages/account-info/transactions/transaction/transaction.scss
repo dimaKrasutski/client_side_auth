@@ -1,0 +1,35 @@
+.transactions {
+  cursor: pointer;
+
+  .amount {
+    vertical-align: middle;
+  }
+}
+
+.transaction-details {
+  .table {
+    tr {
+      &:last-child {
+        td {
+          padding: 0;
+        }
+      }
+    }
+    td {
+      text-align: left;
+      padding: 0 0 1.25rem 0;
+      border: 0;
+
+      &:first-of-type {
+        color: $gray-dark-secondary;
+        white-space: nowrap;
+      }
+
+      &:last-of-type {
+        word-break: break-all;
+        font-weight: bold;
+        max-width: 270px;
+      }
+    }
+  }
+}

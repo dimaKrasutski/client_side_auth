@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OperationsTable /> should match snapshot 1`] = `
+<Table
+  className="mt-3 blocks-table"
+  responsiveTag="div"
+  tag="table"
+>
+  <thead
+    className="thead-light"
+  >
+    <tr>
+      <th>
+        <FormattedMessage
+          id="explorer.block-info.transactions.hash"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.block-info.transactions.date"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.block-info.transactions.type"
+          values={Object {}}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody />
+</Table>
+`;

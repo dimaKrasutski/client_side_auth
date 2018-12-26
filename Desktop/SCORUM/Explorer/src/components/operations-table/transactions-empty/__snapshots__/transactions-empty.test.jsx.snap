@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionsEmpty /> should match snapshot 1`] = `
+<div
+  className="text-center pt-3_5 pt-sm-8_5 text-gray-dark-secondary"
+>
+  <IconTransactionsEmpty />
+  <h4
+    className="mt-0_5 mb-0"
+  >
+    <FormattedMessage
+      id="test-title"
+      values={Object {}}
+    />
+  </h4>
+  <FormattedHTMLMessage
+    id="test-subtitle"
+    values={Object {}}
+  />
+</div>
+`;

@@ -1,0 +1,21 @@
+.idea
+.DS_Store
+
+# System folder for caches, etc.
+.etmp
+
+# System folder for VSCode local history plugin
+.history
+
+dist/
+node_modules
+
+reports/
+npm-debug.log
+deployments.log
+yarn-error.log
+.vscode
+ecosystem\.local\.config\.js
+deploy\.local\.config\.js
+yarn-error.log
+package-lock.json

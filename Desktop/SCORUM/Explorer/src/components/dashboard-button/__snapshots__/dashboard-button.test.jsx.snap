@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardButton /> should match snapshot 1`] = `
+<Button
+  className="float-right mt-0_5"
+  color="secondary"
+  onClick={[MockFunction]}
+  outline={true}
+  size="xs"
+  tag="button"
+>
+  <FormattedMessage
+    id="test"
+    values={Object {}}
+  />
+</Button>
+`;

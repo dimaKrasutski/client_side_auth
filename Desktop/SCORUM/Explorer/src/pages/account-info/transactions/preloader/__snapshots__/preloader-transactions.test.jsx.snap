@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PreloaderRow /> should match snapshot 1`] = `
+<tr
+  className="preloader-transactions preloader-row"
+>
+  <td>
+    <div
+      className="preloader"
+    />
+  </td>
+  <td>
+    <div
+      className="preloader"
+    />
+  </td>
+  <td>
+    <div
+      className="preloader"
+    />
+  </td>
+  <td>
+    <div
+      className="preloader float-right"
+    />
+  </td>
+</tr>
+`;
+
+exports[`<PreloaderTransactions /> should match snapshot 1`] = `
+<React.Fragment>
+  <PreloaderRow />
+  <PreloaderRow />
+  <PreloaderRow />
+</React.Fragment>
+`;

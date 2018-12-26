@@ -1,0 +1,29 @@
+$balance-col-padding: ($spacer / 2) * .75;
+
+.balance-wrapper {
+  scroll-behavior: smooth;
+  overflow-x: auto;
+
+  .balance {
+    min-width: 518px + ($grid-gutter-width-xs * 2);
+
+    @media (max-width: 540px) {
+      padding-right: $grid-gutter-width-xs;
+      padding-left: $grid-gutter-width-xs;
+    }
+
+    .card {
+      &-left {
+        padding-right: $balance-col-padding;
+      }
+
+      &-right {
+        padding-left: $balance-col-padding;
+      }
+    }
+
+    .pub-key {
+      word-wrap: break-word;
+    }
+  }
+}

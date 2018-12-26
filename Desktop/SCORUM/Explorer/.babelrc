@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "es2017",
+    "es2016",
+    "es2015",
+    "react"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-object-assign",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "ramda",
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "theme": "@scorum/theme-bootstrap/src"
+      }
+    }]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  }
+}

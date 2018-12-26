@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageTitle /> should match snapshot 1`] = `
+<h1
+  className="mb-6"
+>
+  <FormattedMessage
+    id="test"
+    values={Object {}}
+  />
+  <span
+    className="text-gray-dark-secondary ml-2"
+  >
+    <FormattedMessage
+      id="sec"
+      values={Object {}}
+    />
+  </span>
+</h1>
+`;

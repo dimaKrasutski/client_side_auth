@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteLink /> should use state + locale 1`] = `
+<Link
+  className=""
+  href="/en-us/test"
+  replace={false}
+  to="/en-us/test"
+>
+  Link here!
+</Link>
+`;

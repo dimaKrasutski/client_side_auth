@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DelegatesUI /> should match snapshot 1`] = `
+<Connect(MainUI)>
+  <Container
+    className="pt-6 blocks-container"
+    tag="div"
+  >
+    <Row
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="12"
+      >
+        <PageTitle
+          secondaryTitle=""
+          title="explorer.delegates.title"
+        />
+        <h4>
+          <FormattedMessage
+            id="explorer.delegates.table-active.title"
+            values={Object {}}
+          />
+        </h4>
+        <WitnessesTable
+          isCandidates={false}
+          witnesses={Array []}
+        />
+        <h4>
+          <FormattedMessage
+            id="explorer.delegates.table-candidates.title"
+            values={Object {}}
+          />
+        </h4>
+        <WitnessesTable
+          isCandidates={true}
+          witnesses={Array []}
+        />
+      </Col>
+    </Row>
+  </Container>
+</Connect(MainUI)>
+`;

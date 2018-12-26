@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Transaction /> should match snapshot 1`] = `
+<TransactionUI
+  locale="en-us"
+  openDetailsModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  transaction={
+    Object {
+      "index": 5,
+      "op": Object {
+        "amount": "100000 SCR",
+        "from": "user1",
+        "to": "user2",
+      },
+      "timestamp": "2018-03-07T15:42:39",
+    }
+  }
+/>
+`;

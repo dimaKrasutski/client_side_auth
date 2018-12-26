@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlockTableUI /> should match snapshot 1`] = `
+<Table
+  className="mt-3 blocks-table"
+  responsiveTag="div"
+  tag="table"
+>
+  <thead
+    className="thead-light"
+  >
+    <tr>
+      <th>
+        <FormattedMessage
+          id="explorer.blocks.table.height"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.blocks.table.date"
+          values={Object {}}
+        />
+      </th>
+      <th>
+        <FormattedMessage
+          id="explorer.blocks.table.hash"
+          values={Object {}}
+        />
+      </th>
+      <th
+        className="text-right"
+      >
+        <FormattedMessage
+          id="explorer.blocks.table.transactions"
+          values={Object {}}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <PreloaderBlocks />
+  </tbody>
+</Table>
+`;

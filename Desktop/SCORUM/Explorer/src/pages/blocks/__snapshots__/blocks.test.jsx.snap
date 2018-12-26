@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlocksUI /> should match snapshot 1`] = `
+<Connect(MainUI)>
+  <Container
+    className="pt-6 blocks-container"
+    tag="div"
+  >
+    <Row
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="12"
+      >
+        <PageTitle
+          secondaryTitle=""
+          title="explorer.blocks.title"
+        />
+        <Connect(BlocksInfiniteLoad) />
+      </Col>
+    </Row>
+  </Container>
+</Connect(MainUI)>
+`;

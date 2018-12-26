@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`system action creators should create global error with error id 1`] = `
+Object {
+  "payload": Object {
+    "error": "test-id",
+    "links": undefined,
+  },
+  "type": "GLOBAL_ERROR",
+}
+`;
+
+exports[`system action creators should create global error with error id and error 1`] = `
+Object {
+  "payload": Object {
+    "error": "test-id",
+    "links": undefined,
+  },
+  "type": "GLOBAL_ERROR",
+}
+`;
+
+exports[`system action creators should create global error with error id, error and links 1`] = `
+Object {
+  "payload": Object {
+    "error": "test-id",
+    "links": Array [
+      Object {
+        "href": "href",
+        "id": "id",
+        "messageId": "messageId",
+      },
+    ],
+  },
+  "type": "GLOBAL_ERROR",
+}
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainUI /> should match snapshot 1`] = `
+<main
+  className="mb-6 "
+>
+  <Header>
+    <div>
+      <LogoLink
+        locale="en-us"
+        to="/"
+      >
+        <IconLogo />
+      </LogoLink>
+      <Menu />
+    </div>
+  </Header>
+  <ErrorBoundary
+    message={null}
+    onDismissAlert={[MockFunction]}
+  >
+    test
+  </ErrorBoundary>
+</main>
+`;

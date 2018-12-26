@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BalanceCardBody /> should match snapshot 1`] = `
+<React.Fragment>
+  <span
+    className="d-flex align-items-center pb-1_5"
+  >
+    <span>
+      Im icon
+    </span>
+    <span
+      className="ml-1 font-weight-normal"
+    >
+      <FormattedMessage
+        id="test"
+        values={Object {}}
+      />
+    </span>
+  </span>
+  <div>
+    <h2
+      className="mb-0 h2"
+    >
+      1,250,000.200
+    </h2>
+    <h4
+      className="text-gray-dark-hint"
+    >
+      1,250,000.200 USD
+    </h4>
+  </div>
+</React.Fragment>
+`;
+
+exports[`<BalanceCardBody /> when no balance should match snapshot 1`] = `
+<React.Fragment>
+  <span
+    className="d-flex align-items-center pb-1_5"
+  >
+    <span>
+      Im icon
+    </span>
+    <span
+      className="ml-1 font-weight-normal"
+    >
+      <FormattedMessage
+        id="test"
+        values={Object {}}
+      />
+    </span>
+  </span>
+  <div>
+    <h2
+      className="mb-0 h2"
+    >
+      <div
+        className="preloader mt-1_5 mb-2 preloader-lg"
+      />
+    </h2>
+    <h4
+      className="text-gray-dark-hint"
+    >
+      <div
+        className="preloader mb-1_5"
+      />
+    </h4>
+  </div>
+</React.Fragment>
+`;
+
+exports[`<BalanceCardBody /> when no trades should match snapshot 1`] = `
+<React.Fragment>
+  <span
+    className="d-flex align-items-center pb-1_5"
+  >
+    <span>
+      Im icon
+    </span>
+    <span
+      className="ml-1 font-weight-normal"
+    >
+      <FormattedMessage
+        id="test"
+        values={Object {}}
+      />
+    </span>
+  </span>
+  <div>
+    <h2
+      className="mb-0 h2"
+    >
+      <div
+        className="preloader mt-1_5 mb-2 preloader-lg"
+      />
+    </h2>
+    <h4
+      className="text-gray-dark-hint"
+    >
+      <div
+        className="preloader mb-1_5"
+      />
+    </h4>
+  </div>
+</React.Fragment>
+`;

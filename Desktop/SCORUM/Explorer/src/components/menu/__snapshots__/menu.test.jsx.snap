@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should match snapshot 1`] = `
+<div
+  className="header-menu font-weight-bold text-small text-uppercase d-inline-block"
+>
+  <Connect(RouteLink)
+    className="mr-3_5 ml-5"
+    to="/"
+  >
+    <FormattedMessage
+      id="explorer.menu.dashboard"
+      values={Object {}}
+    />
+  </Connect(RouteLink)>
+  <Connect(RouteLink)
+    className="mr-3_5"
+    to="/blocks"
+  >
+    <FormattedMessage
+      id="explorer.menu.blocks"
+      values={Object {}}
+    />
+  </Connect(RouteLink)>
+  <Connect(RouteLink)
+    className="mr-3_5"
+    to="/transactions"
+  >
+    <FormattedMessage
+      id="explorer.menu.transactions"
+      values={Object {}}
+    />
+  </Connect(RouteLink)>
+  <Connect(RouteLink)
+    to="/delegates"
+  >
+    <FormattedMessage
+      id="explorer.menu.delegates"
+      values={Object {}}
+    />
+  </Connect(RouteLink)>
+</div>
+`;

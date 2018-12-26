@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionsUI /> should match snapshot 1`] = `
+<Connect(MainUI)>
+  <Container
+    className="pt-6 operations-container"
+    tag="div"
+  >
+    <Row
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="12"
+      >
+        <PageTitle
+          secondaryTitle=""
+          title="explorer.transactions.title"
+        />
+      </Col>
+    </Row>
+    <Row
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="12"
+      >
+        <Tabs
+          activeTab="transactions"
+          border={false}
+          className=""
+          contentClass=""
+          flexItems={false}
+          onTabSelect={[MockFunction]}
+          upper={false}
+        >
+          <Tab
+            className=""
+            label="explorer.block-info.transactions.title"
+            tabId="transactions"
+          >
+            <Connect(TransactionsInfiniteLoad) />
+          </Tab>
+          <Tab
+            className=""
+            label="explorer.block-info.transactions.all"
+            tabId="all"
+          >
+            <Connect(TransactionsAllInfiniteLoad) />
+          </Tab>
+        </Tabs>
+      </Col>
+    </Row>
+  </Container>
+</Connect(MainUI)>
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Balance /> <BalanceUI /> should match snapshot 1`] = `
+<div
+  className="balance-wrapper"
+>
+  <div
+    className="balance"
+  >
+    <Row
+      className="no-gutters mb-1_5"
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="6"
+      >
+        <BalanceCard
+          classNames="card-left"
+          innerClassName={null}
+        >
+          <BalanceCardBody
+            balance={null}
+            currency="USD"
+            icon={<IconScr />}
+            locale="en-us"
+            title="explorer.account-info.balanse-card.title-scr"
+            trades={1}
+          />
+        </BalanceCard>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="6"
+      >
+        <BalanceCard
+          classNames="card-right"
+          innerClassName={null}
+        >
+          <BalanceCardBody
+            balance={null}
+            currency="USD"
+            icon={<IconSp />}
+            locale="en-us"
+            title="explorer.account-info.balanse-card.title-sp"
+            trades={1}
+          />
+        </BalanceCard>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;
+
+exports[`<Balance /> <BalanceUI /> should match snapshot no balance 1`] = `
+<div
+  className="balance-wrapper some-test"
+>
+  <div
+    className="balance"
+  >
+    <Row
+      className="no-gutters mb-1_5"
+      tag="div"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="6"
+      >
+        <BalanceCard
+          classNames="card-left"
+          innerClassName={null}
+        >
+          <BalanceCardBody
+            balance={null}
+            currency="USD"
+            icon={<IconScr />}
+            locale="en-us"
+            title="explorer.account-info.balanse-card.title-scr"
+            trades={1}
+          />
+        </BalanceCard>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+        xs="6"
+      >
+        <BalanceCard
+          classNames="card-right"
+          innerClassName={null}
+        >
+          <BalanceCardBody
+            balance={null}
+            currency="USD"
+            icon={<IconSp />}
+            locale="en-us"
+            title="explorer.account-info.balanse-card.title-sp"
+            trades={1}
+          />
+        </BalanceCard>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;

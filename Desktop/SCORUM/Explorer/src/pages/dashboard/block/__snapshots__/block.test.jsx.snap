@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlockUI /> should match snapshot 1`] = `
+<tr
+  className="dashboard-block-line"
+  onClick={[Function]}
+>
+  <td>
+    100
+  </td>
+  <td>
+    <span>
+      06/04/18 5:55 AM
+    </span>
+  </td>
+  <td>
+    123
+  </td>
+</tr>
+`;
